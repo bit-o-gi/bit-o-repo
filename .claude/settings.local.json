@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gradlew.bat build:*)",
+      "Bash(./gradlew build)",
+      "WebFetch(domain:tickets.interpark.com)",
+      "WebFetch(domain:nol.interpark.com)",
+      "WebSearch",
+      "WebFetch(domain:ticket.interpark.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
